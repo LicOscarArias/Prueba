@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.isba.arbol.ElementoArbol" project="prueba" 
+    file="/prueba/src/com/isba/arbol/ElementoArbol.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="531" width="219" x="126" y="-214"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="2">    
+    <bendpoint x="273" y="449"/>    
+    <bendpoint x="486" y="447"/>    
+    <bendpoint x="481" y="152"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="3" name="pareja"/>      
+      <multiplicity id="4" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="5">    
+    <bendpoint x="291" y="434"/>    
+    <bendpoint x="463" y="431"/>    
+    <bendpoint x="446" y="216"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="6" name="hermanos"/>      
+      <multiplicity id="7" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="8">    
+    <bendpoint x="235" y="479"/>    
+    <bendpoint x="535" y="481"/>    
+    <bendpoint x="539" y="-91"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="9" name="madre"/>      
+      <multiplicity id="10" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="11">    
+    <bendpoint x="260" y="457"/>    
+    <bendpoint x="499" y="458"/>    
+    <bendpoint x="504" y="80"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="12" name="padre"/>      
+      <multiplicity id="13" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="14">    
+    <bendpoint x="247" y="470"/>    
+    <bendpoint x="519" y="471"/>    
+    <bendpoint x="518" y="8"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="15" name="hijos"/>      
+      <multiplicity id="16" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
